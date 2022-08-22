@@ -1,1 +1,0 @@
-/home/gameboyadvance/Programs/zone/portfolio/bsq_rust/target/debug/bsq: /home/gameboyadvance/Programs/zone/portfolio/bsq_rust/src/info_map.rs /home/gameboyadvance/Programs/zone/portfolio/bsq_rust/src/main.rs /home/gameboyadvance/Programs/zone/portfolio/bsq_rust/src/map.rs /home/gameboyadvance/Programs/zone/portfolio/bsq_rust/src/map_builder.rs
