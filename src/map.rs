@@ -23,11 +23,8 @@ impl Map {
         for y in 0..self.height {
             for x in 0..self.width {
                 let i = map_idx(self.width, x, y) / 8;
-                let k = x * y;
-                let mut flag = 1;
 
-                flag <<= k % 8;
-                if self.tiles[i] & flag == 0 {
+                if self.tiles[i] & (1 << ((x * y) % 8)) == 0 {
                     print!(".");
 		} else {
                     print!("o");

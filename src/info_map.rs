@@ -36,11 +36,8 @@ impl InfoMap {
         for y in 0..self.height {
             for x in 0..self.width {
                 let i = map_idx(self.width, x, y);
-                let k = x * y;
-                let mut flag = 1;
 
-		flag <<= k % 8;
-		if map.map.tiles[i / 8] & flag != 0 {
+		if map.map.tiles[i / 8] & (1 << ((x * y) % 8)) != 0 {
                     self.tiles[i] = 1;
                     self.tile_sum[i] = 1;
 		}
