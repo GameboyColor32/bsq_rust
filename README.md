@@ -4,6 +4,7 @@ While learning Rust I thought it would be cool to develop those first programs a
 idea, I discovered a lot of new methods I didn't know about when I was starting that actually make the
 development of the programs easier.
 
+
 How does it work?
 =====================
 Step 1
