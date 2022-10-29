@@ -9,7 +9,7 @@ How does it work?
 Step 1
 ---------------------
 The first part of the program is generating a random map with obstacles with a certain density.
-The map is a bitfield, a bit is set at 1 if it is an obstacle, si we use less space, so a map with
+The map is a bitfield, a bit is set at 1 if it is an obstacle. I used btiflields in order to use less space, so
 x * y size will be x * y / 8 + ((x * y % 8) ? 1 : 0) instead.
 
 Step 2
