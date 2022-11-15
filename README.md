@@ -21,7 +21,10 @@ will then do some computations to facilitate and accelerate the search of the bi
 Step 3
 ---------------------
 After all the information has been found and stored, the final part of the algorithm is to actually find the biggest square.
-It will be a classic brute-force but with a smarter way to check if a square can enter a given coordinate, all that
+It will be a classic brute-force but with a smarter way to check if a squ
+
+
+are can enter a given coordinate, all that
 with the help of the information gathered in step 2.
 
 Ressources
